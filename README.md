@@ -1,6 +1,6 @@
 # 🔧 Sistema de Gestão Frontend
 
-Um sistema moderno de gestão (Frontend) desenvolvido para oficinas mecânicas estilo "Martelinho de Ouro", focado em controle de estoque, registro de compras e vendas, e relatórios financeiros em tempo real.
+Um sistema moderno de gestão (Frontend) desenvolvido para oficinas mecânicas, focado em controle de estoque, registro de compras e vendas, e relatórios financeiros em tempo real.
 
 Este projeto funciona em conjunto com uma API Java (Backend) para persistência segura dos dados.
 

@@ -1,4 +1,4 @@
-# 🔧 Martelinho de Ouro - Sistema de Gestão Frontend
+# 🔧 Sistema de Gestão Frontend
 
 Um sistema moderno de gestão (Frontend) desenvolvido para oficinas mecânicas estilo "Martelinho de Ouro", focado em controle de estoque, registro de compras e vendas, e relatórios financeiros em tempo real.
 

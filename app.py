@@ -67,15 +67,6 @@ div[data-testid="stDataFrame"] { border-radius: 12px; overflow: hidden; width: 1
         padding: 10px !important; 
         margin-bottom: 10px !important; 
     }
-    .stTabs [data-baseweb="tab-list"] {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5px;
-    }
-    .stTabs [data-baseweb="tab"] {
-        flex: 1 1 45%; /* Divide as abas de forma responsiva no celular */
-        text-align: center;
-    }
 }
 </style>
 """, unsafe_allow_html=True)

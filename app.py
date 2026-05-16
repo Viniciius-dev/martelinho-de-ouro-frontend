@@ -14,7 +14,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-html, body, [class*="st-"] { font-family: 'Inter', sans-serif; }
+html, body { font-family: 'Inter', sans-serif; }
 
 [data-testid="stSidebar"] {
     background: linear-gradient(180deg, #0f0c29, #302b63, #24243e);

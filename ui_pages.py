@@ -26,7 +26,7 @@ def _existe(path):
 
 
 def _aviso():
-    st.warning("⚠️ Dados não encontrados! Use **⚙️ Gerar Dados Exemplo** primeiro.")
+    st.warning("⚠️ Planilhas não encontradas! Vá em **⚙️ Área Administrativa** e faça o upload das suas planilhas iniciais (Estoque, Compras, Vendas).")
 
 
 def _ler(path):

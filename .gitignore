@@ -1,0 +1,24 @@
+# Arquivos de ambiente e senhas (NUNCA SUBIR ISSO!)
+.env
+
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.pyc
+
+# IDEs e Editores
+.idea/
+.vscode/
+
+# Arquivos temporários e dados dinâmicos do projeto
+dados/*.xlsx
+graficos/
+relatorios/
+scratch/
+
+# Manter modelos de planilhas se quiser que o professor veja a estrutura (opcional)
+!MODELO_*.xlsx

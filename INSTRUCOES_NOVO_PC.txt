@@ -1,0 +1,26 @@
+Como rodar o sistema Martelinho de Ouro em um NOVO Computador:
+
+PASSO 1: PREPARAÇÃO DO AMBIENTE
+---------------------------------
+1. Instale o Java (JDK 17 ou superior) no novo computador.
+2. Instale o Python (3.10 ou superior).
+3. Instale o MySQL Server. Durante a instalação, defina a senha do usuário 'root' (ou deixe em branco se for ambiente de teste, igual ao atual).
+4. Abra o MySQL Command Line (ou MySQL Workbench) e rode o comando:
+   CREATE DATABASE oficina_db;
+
+PASSO 2: APLICATIVO PYTHON (Streamlit)
+---------------------------------
+1. Abra a pasta 'automacao-planilhas' no novo PC.
+2. Abra o terminal nessa pasta e instale as dependências:
+   pip install streamlit pandas openpyxl plotly requests python-dotenv
+3. Dê um duplo-clique no arquivo 'Abrir Planilhas.bat' ou rode no terminal:
+   streamlit run app.py
+
+PASSO 3: API JAVA (Banco de Dados)
+---------------------------------
+1. Abra a pasta 'API' na sua IDE (IntelliJ ou Eclipse) no novo PC.
+2. Antes de rodar, caso você tenha colocado uma senha no MySQL, abra o arquivo 'src/main/resources/application.yaml' e altere a senha na linha do 'password:'.
+3. Execute a aplicação (dê Play).
+4. PRONTO! O Java criará magicamente todas as tabelas (Peças, Vendas, Compras e Logs) dentro do banco de dados 'oficina_db' que você criou.
+
+OBS: As senhas do painel administrativo continuam salvas no arquivo oculto '.env' dentro da pasta do app Python (admin_master / SenhaForte123!).

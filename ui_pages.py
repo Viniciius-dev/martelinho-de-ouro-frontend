@@ -511,6 +511,7 @@ def pagina_gerar_dados():
     tab1, tab2 = st.tabs(["📤 Importar Suas Planilhas", "📥 Ver e Exportar Dados Reais"])
 
     with tab1:
+        os.makedirs(DADOS_DIR, exist_ok=True)
         st.markdown("Faça o upload de planilhas reais. **ATENÇÃO:** O arquivo deve seguir RIGOROSAMENTE o padrão de colunas do sistema.")
         
         col_up1, col_up2, col_up3 = st.columns(3)
